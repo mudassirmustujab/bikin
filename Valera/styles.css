@@ -63,9 +63,28 @@
     font-family: 'EB Garamond', serif;
 }
 
+.bottomLine{
+        margin-bottom: 0px!important;
+}
+
+.bottomLineExt::after{
+        content: "_____";
+        display: block;
+        color: #FF7F5D;
+        height: auto;
+        width: auto;
+        margin: auto auto;
+}
 
 .orange{
     color: #FF7F5D;
+}
+.bgOrange{
+    background-color: #FF7F5D!important;
+}
+
+.bgGain{
+    background-color: #F8F8F8;
 }
 
 .borderLight{
@@ -132,6 +151,20 @@
     height: 100vh;
     position: relative;
 }
+
+.sec3 h2{
+    margin-bottom: 0px!important;
+}
+
+.sec3 h2::after{
+    content: "_____";
+    display: block;
+    color: #FF7F5D;
+    height: auto;
+    width: auto;
+    margin: auto auto;
+}
+
 
 
 .sec5 .cardDiv1{
@@ -221,7 +254,51 @@
     margin: auto auto;
 }
 
-.sec9{
+/* Section Cards starts here */
+.secCard {
+    height: fit-content;
+}
+
+.secCard .card {
+    height: 110vh;
+}
+
+
+.secCard .card-body h3 {
+    font-size: 1.3rem;
+    color: #32353A;
+
+}
+
+.secCard .card-body h4 {
+    font-size: 2.8rem;
+    color: #E84545;
+}
+
+.secCard .card-body h4 span {
+    font-size: 1.1rem;
+}
+
+.secCard .icon {
+    display: block;
+    background-color: #E84545;
+    outline: 7px solid #e8454579;
+    border-radius: 100%;
+    padding: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.secCard .card-body ul {
+    color: #4D5154;
+}
+
+.secCard .card-body ul li {
+    padding: 0.4rem 0px;
+}
+
+
+.secCard{
     background-color: #280A2C;
 }
 
